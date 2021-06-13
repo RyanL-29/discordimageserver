@@ -1,8 +1,8 @@
 # discordimageserver
 
-Based on Fivem GCPhone https://github.com/manueljlz/gcphone to develope this extension
+A extension image server based on Fivem GCPhone https://github.com/manueljlz/gcphone to develope
 
-Need to host your self
+Need to host yourself
 
 SetUp 
 Create a folder call lib in the root folder

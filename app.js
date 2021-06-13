@@ -1,14 +1,10 @@
 const express = require('express');
-var bodyParser = require('body-parser');
 const fileUpload = require('express-fileupload');
 const Discord = require("discord.js");
 const dotenv = require('dotenv');
 dotenv.config({ path: './lib/config.env' });
 var app = express();
 const client = new Discord.Client();
-
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
 
 app.use(fileUpload({
     createParentPath: true
